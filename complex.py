@@ -20,7 +20,7 @@ def calc(first_arg='', second_arg='', oper=''):
             break
         if '+' or '-' not in i:
             b_complex = f'0+{second_arg}'
-            complex(second_arg)
+            complex(second_arg) 
 
     match oper:
         case '+':
