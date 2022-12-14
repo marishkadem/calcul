@@ -91,3 +91,4 @@ def view_res(flag, res):
 
 def menu_collection(flag):
     get_type(flag)
+    return (get_value(flag), get_value(flag), get_oper(flag))
