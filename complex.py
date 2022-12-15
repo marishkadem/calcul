@@ -34,7 +34,7 @@ def calc(first_arg='', second_arg='', oper=''):
             if '1j' in result:
                 result.replace('1j','j')
             return result
-        case '*': 
+        case '*':
             result = str(a_complex * b_complex)
             if '1j' in result:
                 result.replace('1j','j')

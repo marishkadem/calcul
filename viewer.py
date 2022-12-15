@@ -87,7 +87,7 @@ def view_res(flag, res):
     else: 
         with open('res.txt', 'a') as rs:
             rs.write(f'{res}\n')
-    return res
+    return res 
 
 def menu_collection(flag):
     get_type(flag)
